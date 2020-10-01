@@ -18,7 +18,7 @@ Import as VueGoogleMaps from full package into Starter kit
 
 The routes for the Template are declared in the file`routes.js`. this file is called in the`main.js`file, in the vue instance declaration.
 
-```text
+```javascript
 {
 path: '/vuegooglemaps',component: resolve =
 >
@@ -38,7 +38,7 @@ Path should be according to your file placement like above
 
 Folder\_name is your folder name
 
-```text
+```yaml
          meta: {
         title: "Gmpas",  
                   }
@@ -50,7 +50,7 @@ Note: We already have an example in src /route.js file and there is a one index 
 
 Here you need to set file name and path
 
-```text
+```javascript
 eg:
     {
     name: 'Google maps', 
